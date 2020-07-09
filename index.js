@@ -18,7 +18,7 @@ connection.connect((err) => {
 	}
 });
 
-app.listen(3000, () => console.log('Express server is running at port no : 3000'));
+app.listen(4000, () => console.log('Express server is running at port no : 4000'));
 
 //모든 데이터 가져오기. 오래걸리지 않을까?
 app.get('/topic', (req, res) => {
